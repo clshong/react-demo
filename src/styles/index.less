@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 初始化样式 */
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img {
+  padding: 0;
+  margin: 0;
+}
+fieldset,
+img,
+input,
+button {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline-style: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+input {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+select,
+input {
+  vertical-align: middle;
+}
+select,
+input,
+textarea {
+  margin: 0;
+}
+textarea {
+  resize: none;
+}
+img {
+  vertical-align: middle;
+  border: 0;
+}
+table {
+  border-collapse: collapse;
+}
+body {
+  font-size: 14px;
+  background: #ffffff;
+}
+.clearfix::before,
+.clearfix::after {
+  display: table;
+  content: "";
+}
+.clearfix::after {
+  clear: both;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  text-decoration: none;
+}
